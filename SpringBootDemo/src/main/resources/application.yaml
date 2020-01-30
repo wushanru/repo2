@@ -1,0 +1,29 @@
+name: zhangsan222ddddddddddd
+server:
+  port: 8085
+  servlet:
+    context-path: /demo
+
+#person: {name: zhangsan,age: 20,addr: beijing}
+
+color:
+  - red
+  - yellow
+city: [being,tianjing,chongqing,shanghai]
+
+student:
+  - name: zhangsan
+    age: 29
+    addr: anhui
+  - name: lisi
+    age: 30
+    addr: anqing
+
+student2: {[name: zhangsan, age: 29, addr: anhui],[name: lisi, age:30, addr: anqing]}
+
+map:
+  key1: value1
+  key2: value2
+person:
+  name: zhangsan
+  addr: beijing
